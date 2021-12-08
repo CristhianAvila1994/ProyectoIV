@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Profesor;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -32,4 +33,6 @@ class CreateGradoProfesorsTable extends Migration
     {
         Schema::dropIfExists('grado_profesors');
     }
+
+
 }
